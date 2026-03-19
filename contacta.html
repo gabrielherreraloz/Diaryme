@@ -1,0 +1,50 @@
+# contacta.html
+# Gabriel Herrera Lozano
+
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset = "utf-8" />
+        <title>
+            Diaryme - Contacta
+        </title>
+        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Diaryme
+            </h1>
+        </header>
+        <main>
+            <h2>
+                Contactar:
+            </h2>
+            <form>
+                Nombre completo:
+                <div><input type="text" id="nombre" name="nombre" required></div>
+                <br>
+                Correo electrónico:
+                <div><input type="text" id="email" name="email" placeholder="Correo electrónico" pattern="[a-z0-9.\-]+@[a-z0-9.\-]+"></div>
+                <br>
+                Comentarios:
+                <textarea name="comentario" placeholder="Comentarios" rows="5"></textarea>
+                <br>
+                <input type="checkbox" id="alta" name="alta1">
+                <label for="alta">
+                    Darse de alta en nuestra newsletter para recibir noticias y actualizaciones
+                </label>
+                <br>
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+
+        </main>
+        <footer>
+            <div>Author: Gabriel Herrera Lozano</div>
+            <div>All Rights Reserved</div>
+        </footer>
+    </body>
+</html>
