@@ -1,2 +1,4 @@
 # Diaryme Programación web de un blog personal
 Página web creada para la asignatura Tecnologías web con el objetivo de crear un blog personal.
+
+Para ver el resultado actualizado: https://gabrielherreraloz.github.io/Diaryme/
