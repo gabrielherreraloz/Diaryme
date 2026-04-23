@@ -1,0 +1,1 @@
+Para ejecutar la version php, mover lo archivos .php a la raiz del proyecto y eliminar los .html
